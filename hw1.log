@@ -1,0 +1,20 @@
+Script started on 2025-01-26 22:31:20+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="128" LINES="23"]
+[0;32m@Zephrnos [0m➜ [1;34m/workspaces/csci-330-homeworks-Zephrnos [0;36m([1;31mmain[0;36m) [0m$ script hw1.txtl[Kscript hw1.txt[Ksbcl --load test.lisp
+This is SBCL 1.4.3, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+Result 1: X
+Result 2: (X D)
+Result 3: (X)
+List 1: (A B X D)
+List 2: (A (B (X D)))
+List 3: (((A (B (X) D))))
+* (sb-ext:quit)
+[0;32m@Zephrnos [0m➜ [1;34m/workspaces/csci-330-homeworks-Zephrnos [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2025-01-26 22:31:47+00:00 [COMMAND_EXIT_CODE="0"]
