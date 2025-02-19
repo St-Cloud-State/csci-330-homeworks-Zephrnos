@@ -1,0 +1,15 @@
+Script started on 2025-02-19 02:41:07+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="128" LINES="23"]
+[0;32m@Zephrnos [0m➜ [1;34m/workspaces/csci-330-homeworks-Zephrnos/Homework3 [0;36m([1;31mmain[0;36m) [0m$ ls
+BottomUpMergesort.lisp  ComplilationandExecution.txt  Mergesort.lisp  QuicksortNoRecursion.cpp
+[0;32m@Zephrnos [0m➜ [1;34m/workspaces/csci-330-homeworks-Zephrnos/Homework3 [0;36m([1;31mmain[0;36m) [0m$ g++ -o main qui[K[K[KQuicksortNoRecursion.cpp 
+[01m[KQuicksortNoRecursion.cpp:[m[K In function ‘[01m[Kvoid quicksort(std::vector<int>&)[m[K’:
+[01m[KQuicksortNoRecursion.cpp:34:14:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   34 |         auto [01;35m[K[[m[Klow, high] = stack.top();
+      |              [01;35m[K^[m[K
+[0;32m@Zephrnos [0m➜ [1;34m/workspaces/csci-330-homeworks-Zephrnos/Homework3 [0;36m([1;31mmain[0;36m) [0m$ ./main 
+Before sort: 5 3 8 4 2 7 1 10 6 
+After sort: 1 2 3 4 5 6 7 8 10 
+[0;32m@Zephrnos [0m➜ [1;34m/workspaces/csci-330-homeworks-Zephrnos/Homework3 [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2025-02-19 02:41:58+00:00 [COMMAND_EXIT_CODE="0"]
